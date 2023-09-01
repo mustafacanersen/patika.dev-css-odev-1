@@ -1,0 +1,41 @@
+.text-orange {
+    color: orange;
+  }
+body{
+    background-color: #E9ECEF;
+  }
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card-img-top {
+    flex: 1;
+    object-fit: cover;
+    padding: 20px;
+}
+.card-price {
+  margin-left: 18px;
+  margin-bottom: 18px;
+}
+.logo {
+ color: red;
+ font-size: xx-large;
+ font-weight: bold;
+ text-decoration: none;
+ display: flex;
+ justify-content: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
